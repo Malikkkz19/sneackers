@@ -4,6 +4,21 @@ const App = () => {
   return (
     <>
     <div className="wrapper">
+      <div className="overlay">
+        <div className="drawer">
+          <h2>Корзина</h2>
+
+          <div className="cartItem">
+            <img src="/img/sneakers/1.jpg"/>
+            <div>
+              <p>Мужские кроссовки Nike Air Max 750</p>
+                <b>12 999 руб.</b>
+                <img src="/img/btn-remove.svg" alt="remove"/>
+
+            </div>
+          </div>
+        </div>
+      </div> 
       <div className="header">
         <div className="header-left">
           <img height={40} width={40} src="/img/logo.png" alt="logo"/>
@@ -47,9 +62,20 @@ const App = () => {
         </ul> 
         </div>
         <div className="content"> 
-            <h1>Bсе кроссовки</h1>
+            <div className="content-right">
+              <h1>Bсе кроссовки</h1>
+              <div className="search-block">
+                <img src="/img/search.svg" alt="search"/>
+                <input placeholder="Поиск..." />
+              </div>
+              
+              </div>
+            
             <div className="sneakers">
             <div className="card">
+              <div className="favorite">
+                <img src="/img/unliked.svg" alt="unliked"/>
+              </div>
                 <img className="sneacker" width={133} height={112} src="/img/sneakers/1.jpg" alt="nike"/>
                 <h5>Мужские кроссовки Nike Blazer Mid Suede</h5>
                 <div className="cardBottom">
