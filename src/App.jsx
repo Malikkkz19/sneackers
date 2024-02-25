@@ -80,7 +80,9 @@ const App = () => {
                   <b>1074 руб. </b>
                 </li>
               </ul>
-              <button>Оформить заказ</button>
+              <button>
+                Оформить заказ <img src="/img/arrow.svg" />
+              </button>
             </div>
           </div>
         </div>
