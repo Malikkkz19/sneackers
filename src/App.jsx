@@ -5,65 +5,82 @@ const App = () => {
         <div className="overlay">
           <div className="drawer">
             <h2>Корзина</h2>
-            <div className="cartItem ">
-              <div
-                className="cartItemImg"
-                style={{ backgroundImage: `url(/img/sneakers/1.jpg)` }}
-              ></div>
-              <div className="cartDesc">
-                <p className="mb-0">Мужские кроссовки Nike Air Max 750</p>
-                <b>12 999 руб.</b>
+            <div className="items">
+              <div className="cartItem ">
+                <div
+                  className="cartItemImg"
+                  style={{ backgroundImage: `url(/img/sneakers/1.jpg)` }}
+                ></div>
+                <div className="cartDesc">
+                  <p className="mb-0">Мужские кроссовки Nike Air Max 750</p>
+                  <b>12 999 руб.</b>
+                </div>
+                <img
+                  className="removeButton"
+                  src="/img/btn-remove.svg"
+                  alt="remove"
+                />
               </div>
-              <img
-                className="removeButton"
-                src="/img/btn-remove.svg"
-                alt="remove"
-              />
+              <div className="cartItem ">
+                <div
+                  className="cartItemImg"
+                  style={{ backgroundImage: `url(/img/sneakers/2.jpg)` }}
+                ></div>
+                <div className="cartDesc">
+                  <p className="mb-0">Мужские кроссовки Nike Air Max 750</p>
+                  <b>18 999 руб.</b>
+                </div>
+                <img
+                  className="removeButton"
+                  src="/img/btn-remove.svg"
+                  alt="remove"
+                />
+              </div>
+              <div className="cartItem ">
+                <div
+                  className="cartItemImg"
+                  style={{ backgroundImage: `url(/img/sneakers/3.jpg)` }}
+                ></div>
+                <div className="cartDesc">
+                  <p className="mb-0">Мужские кроссовки Nike Air Max 750</p>
+                  <b>10 999 руб.</b>
+                </div>
+                <img
+                  className="removeButton"
+                  src="/img/btn-remove.svg"
+                  alt="remove"
+                />
+              </div>
+              <div className="cartItem ">
+                <div
+                  className="cartItemImg"
+                  style={{ backgroundImage: `url(/img/sneakers/4.jpg)` }}
+                ></div>
+                <div className="cartDesc">
+                  <p className="mb-0">Мужские кроссовки Nike Air Max 750</p>
+                  <b>9 999 руб.</b>
+                </div>
+                <img
+                  className="removeButton"
+                  src="/img/btn-remove.svg"
+                  alt="remove"
+                />
+              </div>
             </div>
-            <div className="cartItem ">
-              <div
-                className="cartItemImg"
-                style={{ backgroundImage: `url(/img/sneakers/2.jpg)` }}
-              ></div>
-              <div className="cartDesc">
-                <p className="mb-0">Мужские кроссовки Nike Air Max 750</p>
-                <b>18 999 руб.</b>
-              </div>
-              <img
-                className="removeButton"
-                src="/img/btn-remove.svg"
-                alt="remove"
-              />
-            </div>
-            <div className="cartItem ">
-              <div
-                className="cartItemImg"
-                style={{ backgroundImage: `url(/img/sneakers/3.jpg)` }}
-              ></div>
-              <div className="cartDesc">
-                <p className="mb-0">Мужские кроссовки Nike Air Max 750</p>
-                <b>10 999 руб.</b>
-              </div>
-              <img
-                className="removeButton"
-                src="/img/btn-remove.svg"
-                alt="remove"
-              />
-            </div>
-            <div className="cartItem ">
-              <div
-                className="cartItemImg"
-                style={{ backgroundImage: `url(/img/sneakers/4.jpg)` }}
-              ></div>
-              <div className="cartDesc">
-                <p className="mb-0">Мужские кроссовки Nike Air Max 750</p>
-                <b>9 999 руб.</b>
-              </div>
-              <img
-                className="removeButton"
-                src="/img/btn-remove.svg"
-                alt="remove"
-              />
+            <div className="cartBottomDesc">
+              <ul>
+                <li>
+                  <span>Итого: </span>
+                  <div></div>
+                  <b>21 498 руб. </b>
+                </li>
+                <li>
+                  <span>Налог 5%: </span>
+                  <div></div>
+                  <b>1074 руб. </b>
+                </li>
+              </ul>
+              <button>Оформить заказ</button>
             </div>
           </div>
         </div>
