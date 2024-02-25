@@ -168,6 +168,19 @@ h5 {
   padding: 30px;
   h2 {
     margin-bottom: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      opacity: 0.6;
+      cursor: pointer;
+      transition: opacity 300ms ease-in-out;
+      &:hover {
+        opacity: 1;
+        transition: opacity 300ms ease-in-out;
+      }
+    }
   }
 }
 
@@ -234,7 +247,7 @@ h5 {
 
     img {
       position: absolute;
-      right: 40px;
+      right: 30px;
       top: 20px;
       transition: transform 300ms ease-in-out;
     }
@@ -286,4 +299,6 @@ h5 {
 
 .items {
   flex: 1;
+  overflow: auto;
+  margin-bottom: 30px;
 }
